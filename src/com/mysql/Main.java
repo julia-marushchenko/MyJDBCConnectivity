@@ -20,7 +20,7 @@ public class Main {
     }
 
     // Method to connect to SQL server.
-    public static void demoMethod(String input) throws SQLException {
+    public static void demoMethod() throws SQLException {
         String sql = "SELECT * FROM users";
 
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/my_db",
