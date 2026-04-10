@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) throws SQLException {
 
         // Getting users wit name Jack.
-        demoMethod("Jack");
+        demoMethod();
 
     }
 
@@ -37,6 +37,11 @@ public class Main {
         resultSet.close();
         statement.close();
         connection.close();
+
+        // Output:  Jack
+                    Bernard
+                    Jack
+                    Kate
 
     }
 }
